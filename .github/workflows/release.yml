@@ -29,8 +29,7 @@
 name: release
 
 on:
-  push:
-    tags: ['v*', 'macos-v*', 'windows-v*', 'linux-v*', 'android-v*']
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
